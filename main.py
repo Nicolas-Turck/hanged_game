@@ -20,3 +20,6 @@ while 1:
         hidden_list= []
         #call function for choice word
         word = word_choice(liste_mot)
+        #call function to masqued word choice
+        hidden_list = masqued_word(list1, word, hidden_list)
+        print(''.join(hidden_list))

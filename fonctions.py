@@ -19,3 +19,14 @@ def word_choice(liste_mot):
     list word in donnees.py for the game and return it"""
     word = choice(liste_mot)
     return word
+
+def masqued_word(list1, word, hidden_list):
+    """this function change word to hidden word and return it"""
+    # for all element in word
+    for elem in word:
+        # i adding elem in list1
+        list1.append(elem)
+        #i adding * in hidden list for elem
+        hidden_list.append("*")
+        #i display the hidden list with join method
+    return hidden_list
