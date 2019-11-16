@@ -10,3 +10,13 @@ name = nameUser()
 score = {}
 test = 8
 print("lets go {}".format(name))
+
+while 1:
+    player_choice = menu()
+
+    if player_choice == "1":
+        list1 = []
+        # i create a hidden list for adding the word hidden
+        hidden_list= []
+        #call function for choice word
+        word = word_choice(liste_mot)

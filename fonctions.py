@@ -9,3 +9,13 @@ def nameUser():
     if name == "":
         name = "cartman"
     return name
+
+def menu():
+    player_choice = input("1:play, 2:score, 3:exit\n enter number choice :")
+    return player_choice
+
+def word_choice(liste_mot):
+    """this function choice a word in
+    list word in donnees.py for the game and return it"""
+    word = choice(liste_mot)
+    return word
