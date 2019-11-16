@@ -23,3 +23,17 @@ while 1:
         #call function to masqued word choice
         hidden_list = masqued_word(list1, word, hidden_list)
         print(''.join(hidden_list))
+        #call function game with many parameters
+        play_game(name, word,hidden_list, list1)
+        #call function colect score for save the score of user
+        #colect_score(name, score)
+        #print(liste_recuperer)
+
+    #if player_choice == "2":
+        #colect_score(name, saves_scores)
+        #print(liste_recuperer)
+
+
+    if player_choice == "3":
+        print("good bye {}".format(name))
+        exit()
