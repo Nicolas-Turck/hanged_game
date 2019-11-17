@@ -1,6 +1,6 @@
 from random import *
-from donner import *
-from functions1 import *
+from donnees import *
+from fonctions import *
 import pickle
 
 print("welcome to hanged game")

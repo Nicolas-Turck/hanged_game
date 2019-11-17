@@ -1,5 +1,5 @@
 from random import *
-from donner import *
+from donnees import *
 import pickle
 def nameUser():
     """this function resquest the name of
@@ -90,4 +90,4 @@ def colect_score(name, saves_scores,score, test):
 
     print(score)
     print(colect_score(name, scores))
-    # i dont find the soluce for this function    
+    # i dont find the soluce for this function
