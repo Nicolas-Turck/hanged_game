@@ -1,5 +1,5 @@
 # pendu
-## presentation game pendu 
+## presentation game pendu. 
 
 this game is the game pendu create in python
 with loops for and while and method enumerate 
