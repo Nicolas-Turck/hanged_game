@@ -1,0 +1,1 @@
+{'nicos': 8}{'cartman': 4}{'tux': 8}
